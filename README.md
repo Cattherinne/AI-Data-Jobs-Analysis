@@ -48,6 +48,21 @@ The analysis includes:
 - Window functions
 - Percentage calculations
 
+## Power BI Dashboard
+
+The Power BI dashboard provides an interactive analysis of AI and Data Science job postings.
+
+The dashboard includes:
+
+- KPI overview
+- Jobs by industry
+- Top 10 job titles
+- Jobs by experience level
+- Top 10 countries by job postings
+- Jobs by region
+- Remote work analysis
+- Interactive filters
+
 ## Key Findings
 
 - **Data Scientist** is the most common job title, with 709 job postings.
@@ -71,6 +86,9 @@ AI-Data-Jobs-Analysis/
 ├── README.md
 ├── key_findings.md
 │
-└── sql/
-    ├── create_table.sql
-    └── queries.sql
+├── sql/
+│   ├── create_table.sql
+│   └── queries.sql
+│
+└── powerbi/
+    └── AI_Data_Jobs_Analysis.pbix
